@@ -23,20 +23,7 @@ const ContactUs = () => {
 
     return (
         <div className="contact-us">
-            <header className="header">
-                <div className="logo">Pet Central</div>
-                <nav className="nav">
-                    <a href="#">Spa</a>
-                    <a href="#">Clinic</a>
-                    <a href="#">Hotel</a>
-                </nav>
-                <div className="icons">
-                    <svg width="24" height="24" className="bell-icon">
-                        <use href="#bell-icon" />
-                    </svg>
-                    <div className="profile-pic"></div>
-                </div>
-            </header>
+            
             <div className="form-container">
                 <h1>Contact Us</h1>
                 <p>We're here to help! Please fill out the form below, and we'll get back to you as soon as possible.</p>

@@ -31,17 +31,7 @@ const SpaServices = () => {
 
     return (
         <div className="spa-services">
-            <div className="sidebar">
-                <h2>Pet Paradise</h2>
-                <p>Spa Assistant</p>
-                <ul>
-                    <li><a href="#"><svg width="24" height="24"><use href="#dashboard-icon" /></svg>Dashboard</a></li>
-                    <li><a href="#"><svg width="24" height="24"><use href="#appointments-icon" /></svg>Appointments (12)</a></li>
-                    <li><a href="#"><svg width="24" height="24"><use href="#services-icon" /></svg>Services</a></li>
-                    <li><a href="#"><svg width="24" height="24"><use href="#clients-icon" /></svg>Clients</a></li>
-                    <li><a href="#"><svg width="24" height="24"><use href="#settings-icon" /></svg>Settings</a></li>
-                </ul>
-            </div>
+            
             <div className="content">
                 <h1>Spa Services Management</h1>
                 <div className="tabs">

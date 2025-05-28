@@ -21,18 +21,7 @@ const ClinicServices = () => {
 
     return (
         <div className="clinic-services">
-            <div className="sidebar">
-                <div className="logo">Clinic Admin</div>
-                <ul>
-                    <li><a href="#"><svg width="24" height="24"><use href="#dashboard-icon"/></svg>Dashboard</a></li>
-                    <li><a href="#"><svg width="24" height="24"><use href="#appointments-icon"/></svg>Appointments</a></li>
-                    <li><a href="#" className="active"><svg width="24" height="24"><use href="#services-icon"/></svg>Services</a></li>
-                    <li><a href="#"><svg width="24" height="24"><use href="#pets-icon"/></svg>Pets</a></li>
-                    <li><a href="#"><svg width="24" height="24"><use href="#staff-icon"/></svg>Staff</a></li>
-                    <li><a href="#"><svg width="24" height="24"><use href="#settings-icon"/></svg>Settings</a></li>
-                    <li><a href="#"><svg width="24" height="24"><use href="#logout-icon"/></svg>Logout</a></li>
-                </ul>
-            </div>
+            
             <div className="content">
                 <h1>Services</h1>
                 <div className="tabs">

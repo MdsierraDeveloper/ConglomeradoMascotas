@@ -4,23 +4,7 @@ import './Dashboard.css';
 const Dashboard = () => {
     return (
         <div className="dashboard">
-            <header className="header">
-                <div className="logo">Pet Central</div>
-                <nav className="nav">
-                    <a href="#">Dashboard</a>
-                    <a href="#">Bookings</a>
-                    <a href="#">Clients</a>
-                    <a href="#">Pets</a>
-                    <a href="#">Services</a>
-                    <a href="#">Staff</a>
-                </nav>
-                <div className="icons">
-                    <svg width="24" height="24" className="bell-icon">
-                        <use href="#bell-icon" />
-                    </svg>
-                    <div className="profile-pic"></div>
-                </div>
-            </header>
+            
             <div className="content">
                 <h1>Dashboard</h1>
                 <p>Welcome back, Sarah</p>

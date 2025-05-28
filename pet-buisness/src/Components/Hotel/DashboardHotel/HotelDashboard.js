@@ -4,18 +4,7 @@ import './HotelDashboard.css';
 const HotelDashboard = () => {
     return (
         <div className="hotel-dashboard">
-            <div className="sidebar">
-                <div className="logo">Hotel Services</div>
-                <div className="role">Employee</div>
-                <ul>
-                    <li><a href="#" className="active"><svg width="24" height="24"><use href="#dashboard-icon"/></svg>Dashboard</a></li>
-                    <li><a href="#"><svg width="24" height="24"><use href="#lodging-icon"/></svg>Lodging</a></li>
-                    <li><a href="#"><svg width="24" height="24"><use href="#recreation-icon"/></svg>Recreation</a></li>
-                    <li><a href="#"><svg width="24" height="24"><use href="#feeding-icon"/></svg>Feeding</a></li>
-                    <li><a href="#"><svg width="24" height="24"><use href="#transportation-icon"/></svg>Transportation</a></li>
-                    <li><a href="#"><svg width="24" height="24"><use href="#clients-icon"/></svg>Clients</a></li>
-                </ul>
-            </div>
+            
             <div className="content">
                 <h1>Dashboard</h1>
                 <p>Manage hotel services, schedules, and client information.</p>

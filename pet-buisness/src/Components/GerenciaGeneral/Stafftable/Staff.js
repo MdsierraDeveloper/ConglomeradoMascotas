@@ -21,17 +21,7 @@ const Staff = () => {
 
     return (
         <div className="staff">
-            <div className="sidebar">
-                <div className="logo">Pet Central</div>
-                <ul>
-                    <li><a href="#"><svg width="24" height="24"><use href="#dashboard-icon"/></svg>Dashboard</a></li>
-                    <li><a href="#"><svg width="24" height="24"><use href="#appointments-icon"/></svg>Appointments</a></li>
-                    <li><a href="#"><svg width="24" height="24"><use href="#clients-icon"/></svg>Clients</a></li>
-                    <li><a href="#" className="active"><svg width="24" height="24"><use href="#staff-icon"/></svg>Staff</a></li>
-                    <li><a href="#"><svg width="24" height="24"><use href="#settings-icon"/></svg>Settings</a></li>
-                    <li><a href="#"><svg width="24" height="24"><use href="#help-icon"/></svg>Help and feedback</a></li>
-                </ul>
-            </div>
+            
             <div className="content">
                 <h1>Staff</h1>
                 <input
